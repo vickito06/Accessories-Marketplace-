@@ -1,0 +1,73 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(92, 64, 64);
+    color: white;
+    padding: 10px 12px;
+}
+.menu{
+list-style: none;
+display: flex;
+gap: 20px;
+color: white;
+}
+.container{
+    height: 70%;
+    width: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 100px;
+    margin-left: 150px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.right{
+    background-color: rgb(250, 243, 243);
+    width: 330px;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.left{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+h1{
+    color: rgb(107, 78, 78);
+    font-weight: bold;
+}
+span{
+    color: rgb(107, 78, 78);
+    font-weight: bold;
+
+}
+.buttons{
+    margin-left: 60px;
+    display: flex;
+    gap: 20px;
+}
+.button{
+    text-decoration: none;
+    color: rgb(107, 78, 78);
+    padding: 10px;
+    border: none;
+    border-top: 1px solid rgb(107, 78, 78);
+    border-bottom: 1px solid rgb(107, 78, 78);
+    background-color: white;
+}
+.chat{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    background-color: rgb(39, 224, 39);
+    padding: 10px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
